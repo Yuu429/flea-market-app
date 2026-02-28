@@ -1,0 +1,84 @@
+.main__inner {
+    max-width: 1400px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.user-profile__inner {
+    display: flex;
+    margin-top: 40px;
+    text-align: left;
+}
+.user-icon__inner {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.user-icon__image {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #dadada;
+}
+.reader_image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #d4d4d4;
+}
+.custom__select {
+    height: 34px;
+    margin-left: 30px;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid #ff8080;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #fd4f4f;
+    cursor: pointer;
+}
+.custom__select:hover {
+    background-color: #f8f8f8;
+}
+.icon-image__select {
+    display: none;
+}
+.input__text {
+    margin: 0;
+}
+.form-input__inner {
+    margin-bottom: 30px;
+}
+.form__input {
+    width: 600px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #a5a5a5;
+}
+.form__error {
+    list-style: none;
+    margin-top: 3px;
+    font-size: 14px;
+    color: #ff0000;
+}
+.register-button__inner {
+    margin-top: 55px;
+}
+.register__button {
+    width: 600px;
+    height: 40px;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #fd4f4f;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .1s;
+}
+.register__button:hover {
+    background-color: #ff8080;
+    transition: .1s;
+}

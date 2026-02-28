@@ -1,0 +1,94 @@
+.header {
+    background-color: #000000;
+}
+.header__inner{
+    width: 1400px;
+    max-width: 90%;
+    height: 70px;
+    margin: 0 auto;
+}
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 290px;
+    height: 30px;
+}
+.search {
+    margin-left: 50px;
+}
+.search__input {
+    width: 400px;
+    height: 40px;
+    padding: 0 30px;
+    padding-top: 5px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+}
+.search__input::placeholder {
+    color: #000000;
+    opacity: 1;
+    font-size: 18px;
+}
+.function {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 auto;
+}
+.function-decoration {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.login__button {
+    margin-right: 15px;
+}
+.logout__button {
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+}
+.my-page__button {
+    margin: 0 15px;
+}
+.sell__button {
+    margin: 0 10px;
+    padding: 8px 20px;
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 850px) {
+    .header__inner {
+        width: 850px;
+    }
+    .logo {
+        width: 190px;
+        height: 20px;
+    }
+    .search {
+        margin-left: 10px;
+    }
+    .search__input {
+        width: 240px;
+    }
+    .function-decoration {
+        font-size: 14px;
+    }
+    .login__button {
+        margin-right: 5px;
+    }
+    .my-page__button {
+        margin: 0 5px;
+    }
+    .sell__button {
+        margin: 0 5px;
+        padding: 4px 9px;
+    }
+}

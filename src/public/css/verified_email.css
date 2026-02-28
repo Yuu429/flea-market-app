@@ -1,0 +1,35 @@
+.verify__container {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.verify__text {
+    margin-top: 200px;
+}
+.verify__button {
+    margin-top: 50px;
+}
+.profile__transition {
+    text-decoration: none;
+    padding: 8px 18px;
+    font-weight: 600;
+    color: #000;
+    background-color: #cccccc;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.profile__transition:hover {
+    background-color: #d8d8d8;
+}
+.resend__container {
+    margin-top: 50px;
+}
+.resend__button {
+    background-color: #fff;
+    border: none;
+    color: #2094d6;
+    cursor: pointer;
+}
+.resend__button:hover {
+    color: #30b3ff;
+}
