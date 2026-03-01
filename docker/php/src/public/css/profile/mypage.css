@@ -1,0 +1,123 @@
+.user__header {
+    width: 1400px;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user__icon {
+    display: flex;
+    align-items: center;
+}
+.user-icon__image {
+    width: 100px;
+    height: 100px;
+    margin-right: 80px;
+    background-color: #dadada;
+    border-radius: 50%;
+    border: 1px solid #d4d4d4;
+}
+.profile-setting__button {
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff4545;
+    text-decoration: none;
+    border: 2px solid #ff7c7c;
+    border-radius: 8px;
+}
+.border {
+    position: relative;
+    top: 40px;
+    border: 1px solid #808080;
+}
+.products__show {
+    width: 1400px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.tab-menu {
+    display: flex;
+    gap: 50px;
+}
+.active {
+    font-size: 17px;
+    font-weight: 600;
+    color: #ff0000;
+    text-decoration: none;
+}
+.active:hover {
+    color: #ff4545;
+}
+.inactive {
+    font-size: 17px;
+    font-weight: 600;
+    color: #5e5e5e;
+    text-decoration: none;
+}
+.inactive:hover {
+    color: #000000;
+}
+.purchase-products__button {
+    font-size: 17px;
+    font-weight: 600;
+}
+.main__inner {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    gap: 50px;
+}
+.empty__text {
+    font-size: 17px;
+}
+.products__link {
+    text-decoration: none;
+}
+.image {
+    width: 250px;
+    height: 250px;
+    background-color: #808080;
+}
+.name {
+    font-size: 18px;
+    color: #000000;
+}
+
+@media only screen and (max-width: 850px) {
+    .user__header {
+        width: 850px;
+        max-width: 90%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }.user-icon__image {
+        width: 60px;
+        height: 60px;
+        margin-right: 40px;
+    }
+    .profile-setting__button {
+        font-size: 16px;
+    }
+    .main__inner {
+        justify-content: space-between;
+        width: 850px;
+        max-width: 90%;
+        margin-top: 30px;
+        gap: 5px;
+    }
+    .image {
+        width: 150px;
+        height: 150px;
+        background-color: #808080;
+    }
+    .name {
+        font-size: 16px;
+        color: #000000;
+    }
+}
